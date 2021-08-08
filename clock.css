@@ -10,6 +10,7 @@ body {
 }
 
 /* Clock Box */
+
 .clock-box {
     display: block;
     margin: 50px auto;
@@ -22,11 +23,10 @@ body {
     animation: animate-clock-box 2s ease-out;
 }
 
-
 .heading {
     font-size: 4em;
     /* background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); */
-    background-image: linear-gradient( 76.9deg,  rgba(255,90,90,1) 27.2%, rgba(130,5,255,1) 79.9% );
+    background-image: linear-gradient( 76.9deg, rgba(255, 90, 90, 1) 27.2%, rgba(130, 5, 255, 1) 79.9%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -34,7 +34,7 @@ body {
 #clock-time {
     font-size: 2em;
     /* color: #00ff4c; */
-    background-image: linear-gradient( 111.5deg,  rgba(249,230,1,1) 9.9%, rgba(249,144,1,1) 19.4%, rgba(255,22,22,1) 29.2%, rgba(255,22,133,1) 37.7%, rgba(255,22,197,1) 47.7%, rgba(232,22,255,1) 53.9%, rgba(162,22,255,1) 60%, rgba(80,22,255,1) 68.8%, rgba(22,104,255,1) 74.2%, rgba(22,168,255,1) 77.6%, rgba(22,255,220,1) 86.7%, rgba(22,255,179,1) 92.5%, rgba(22,255,109,1) 97.1%, rgba(92,255,22,1) 103.5% );
+    background-image: linear-gradient( 111.5deg, rgba(249, 230, 1, 1) 9.9%, rgba(249, 144, 1, 1) 19.4%, rgba(255, 22, 22, 1) 29.2%, rgba(255, 22, 133, 1) 37.7%, rgba(255, 22, 197, 1) 47.7%, rgba(232, 22, 255, 1) 53.9%, rgba(162, 22, 255, 1) 60%, rgba(80, 22, 255, 1) 68.8%, rgba(22, 104, 255, 1) 74.2%, rgba(22, 168, 255, 1) 77.6%, rgba(22, 255, 220, 1) 86.7%, rgba(22, 255, 179, 1) 92.5%, rgba(22, 255, 109, 1) 97.1%, rgba(92, 255, 22, 1) 103.5%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4em;
@@ -54,7 +54,7 @@ body {
 
 /* Animations */
 
-@keyframes animate-clock-box  {
+@keyframes animate-clock-box {
     0% {
         transform: translateY(-100%);
     }
@@ -63,7 +63,7 @@ body {
     }
 }
 
-@keyframes animate-clock-footer  {
+@keyframes animate-clock-footer {
     0% {
         transform: translateX(100%);
     }
@@ -72,7 +72,7 @@ body {
     }
 }
 
-@keyframes animate-clock-time  {
+@keyframes animate-clock-time {
     0% {
         transform: translateX(-100%);
     }
