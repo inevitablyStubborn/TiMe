@@ -14,8 +14,6 @@ body {
 .clock-box {
     display: block;
     margin: 50px auto;
-    /* height: 40vh; */
-    /* width: 90vw; */
     border: 4mm ridge #ff880075;
     border-radius: 10px;
     background: linear-gradient(235deg, #BABC4A 0%, #000000 100%), linear-gradient(235deg, #0026AC 0%, #282534 100%), linear-gradient(235deg, #00FFD1 0%, #000000 100%), radial-gradient(120% 185% at 25% -25%, #EEEEEE 0%, #EEEEEE 40%, #7971EA calc(40% + 1px), #7971EA 50%, #393E46 calc(50% + 1px), #393E46 70%, #222831 calc(70% + 1px), #222831 100%), radial-gradient(70% 140% at 90% 10%, #F5F5C6 0%, #F5F5C6 30%, #7DA87B calc(30% + 1px), #7DA87B 60%, #326765 calc(60% + 1px), #326765 80%, #27253D calc(80% + 1px), #27253D 100%);
@@ -33,7 +31,6 @@ body {
 
 #clock-time {
     font-size: 2em;
-    /* color: #00ff4c; */
     background-image: linear-gradient( 111.5deg, rgba(249, 230, 1, 1) 9.9%, rgba(249, 144, 1, 1) 19.4%, rgba(255, 22, 22, 1) 29.2%, rgba(255, 22, 133, 1) 37.7%, rgba(255, 22, 197, 1) 47.7%, rgba(232, 22, 255, 1) 53.9%, rgba(162, 22, 255, 1) 60%, rgba(80, 22, 255, 1) 68.8%, rgba(22, 104, 255, 1) 74.2%, rgba(22, 168, 255, 1) 77.6%, rgba(22, 255, 220, 1) 86.7%, rgba(22, 255, 179, 1) 92.5%, rgba(22, 255, 109, 1) 97.1%, rgba(92, 255, 22, 1) 103.5%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
